@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentePrepo EPN</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --accent-red: #d32f2f;
+            --white: #ffffff;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--white);
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .header { text-align: center; margin-bottom: 20px; }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px 0;
+            width: 90%;
+            max-width: 400px;
+            border-left: 5px solid var(--accent-red);
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-red);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MentePrepo: EPN</h1>
+        <p>Soluciones Críticas</p>
+    </div>
+
+    <!-- Secciones -->
+    <div class="card">
+        <h3>NEWTON QUEST</h3>
+        <p>Comprensión lectora de Mecánica de Newton.</p>
+        <button class="btn" onclick="alert('Cargando: Laboratorio Perdido')">EXPLORAR LABORATORIO</button>
+    </div>
+
+    <div class="card">
+        <h3>TUTORÍAS ESTUDIANTILES</h3>
+        <p>Aprende de pares avanzados sin jerarquía.</p>
+        <button class="btn" onclick="alert('Cargando: Espacio de Tutorías')">SOLICITAR TUTORÍA</button>
+    </div>
+
+    <div class="card">
+        <h3>CIRCUITO QUIZZ</h3>
+        <p>Herramienta adaptable que ajusta la dificultad.</p>
+        <button class="btn" onclick="alert('Cargando: Circuito Quizz')">EMPEZAR QUIZ</button>
+    </div>
+
+    <div class="card">
+        <h3>DETECTIVE DE ERRORES</h3>
+        <p>Duelo de argumentos: identifica errores sutiles.</p>
+        <button class="btn" onclick="alert('Cargando: Casos de Estudio')">RESOLVER CASOS</button>
+    </div>
+
+    <div class="card">
+        <h3>INGENIERÍA EN ACCIÓN</h3>
+        <p>Situaciones cotidianas que requieren razonamiento.</p>
+        <button class="btn" onclick="alert('Cargando: Nivel de Ingeniería')">JUGAR NIVEL</button>
+    </div>
+</body>
+</html>
